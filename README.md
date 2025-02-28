@@ -1,4 +1,4 @@
-README.md# Spectral Density Analysis Tools
+## **Hamonic Density Analysis Tools**
 
 This repository contains a suite of Python scripts designed for the spectral analysis of musical structures. These tools compute spectral moments, measure interval densities, and analyze spectral metrics for different instruments.
 
@@ -46,69 +46,24 @@ Before using the tools, install the required dependencies:
 ```bash
 pip install -r REQUIREMENTS.txt
 
-Usage
-Graphical Interface
-Run the main script to launch the interactive GUI for spectral analysis:
+## **Additional Notes for macOS and Linux Users**
+macOS:
 
-python Main.py
+You may need to install Python with Tkinter support. If you installed Python from python.org, Tkinter is usually included by default. If you use Homebrew, you can run:
 
-Command-Line Execution
-You can also run individual scripts for specific analyses:
+## **Installation**
+Before using the tools, install the required dependencies:
 
-plot_metr_espectrais.py - Generates plots for spectral metric calculations.
-advanced_density_analysis.py - Computes spectral moments (centroid, spread, skewness).
-density_calculations.py - Provides interval density computations.
-Example usage for plot_metr_espectrais.py:
-
-python plot_metr_espectrais.py
-
-Module Breakdown
-1. Main.py
-Launches the graphical user interface.
-Handles user input and processes spectral density calculations.
-Allows users to select instruments, enter notes, and adjust weight factors.
-2. plot_metr_espectrais.py
-Converts MIDI note numbers into musical note names.
-Computes and visualizes spectral metrics, including centroid and spread.
-Displays results in an interactive plot.
-3. advanced_density_analysis.py
-Computes spectral centroid, spread, and skewness.
-Converts MIDI values to frequency and note names.
-Applies Kernel Density Estimation to improve spectral resolution.
-4. density_calculations.py
-Computes total density for a given musical segment.
-Estimates intervallic densities based on semitone distances.
-Determines overall spectral mass and volume.
-5. densidade_intervalar.py
-Implements microtonal interval density calculations.
-Defines a custom 24-tone microtonal scale.
-Uses a Gaussian decay function to model intervallic strength.
-6. Den_alg_Lin_10.py
-Performs Gaussian Process Regression (GPR) and XGBoost-based predictions.
-Uses machine learning to interpolate missing density values.
-7. flauta.py
-Stores predefined spectral data for a flute.
-Predicts spectral characteristics based on dynamic levels.
-
-Dependencies
-The project requires the following Python packages:
-
-numpy
-matplotlib
-scipy
-pandas
-scikit-learn
-xgboost
-tkinter
-
-
-To install all dependencies, use:
-
+```bash
 pip install -r REQUIREMENTS.txt
 
+## **Additional Notes for macOS and Linux Users**
+macOS:
 
-Acknowledgments
-This project was developed with support from Fundação para a Ciência e Tecnologia (FCT) and Universidade NOVA de Lisboa.
+You may need to install Python with Tkinter support. If you installed Python from python.org, Tkinter is usually included by default. If you use Homebrew, you can run:
 
+```
+brew install python
+```
 
 
