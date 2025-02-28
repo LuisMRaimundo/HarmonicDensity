@@ -32,6 +32,8 @@ This project provides both **command-line** and **graphical** tools to evaluate 
 - Can predict intermediate **dynamic levels** for missing data.
 - Analyzes spectral behavior based on **amplitude-weighted densities**.
 
+**NOTE**: *Only the Flute module is developed. Other modules will be added as soon as they are functional.*
+
 ### 4. Data Visualization
 - Plots spectral metrics for a given set of musical notes.
 - Displays intervallic distributions using Gaussian-based decay models.
