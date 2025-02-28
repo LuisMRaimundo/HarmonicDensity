@@ -1,0 +1,12 @@
+---
+
+### REQUIREMENTS.txt
+```plaintext
+
+numpy
+matplotlib
+scipy
+pandas
+scikit-learn
+xgboost
+tkinter
